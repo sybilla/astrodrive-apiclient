@@ -1,0 +1,20 @@
+{
+  "name": "apiclient",
+  "version": "1.0.0",
+  "description": "TypeScript client for AstroDrive API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Sybilla Technologies",
+  "license": "ISC",
+  "devDependencies": {
+    "aurelia-fetch-client": "^1.8.2",
+    "aurelia-framework": "^1.3.1",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+  }
+}
