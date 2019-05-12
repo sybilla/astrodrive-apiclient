@@ -1,5 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var ApiClient_1 = require("./ApiClient");
-exports.ApiClient = ApiClient_1.ApiClient;
+var astrodriveapiclientv1_0_1 = require("./astrodriveapiclientv1_0");
+exports.AstroDriveApiClientV1_0 = astrodriveapiclientv1_0_1.AstroDriveApiClientV1_0;
 //# sourceMappingURL=index.js.map
