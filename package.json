@@ -6,7 +6,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "refreshVSToken" : "vsts-npm-auth -config .npmrc"
   },
   "keywords": [],
   "author": "Sybilla Technologies",
