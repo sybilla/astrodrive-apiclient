@@ -3,7 +3,7 @@ JavaScript library for AstroDrive API
 
 # installation
 
-  npm install astrodrive-apiclient
+`npm install astrodrive-apiclient`
 
 # usage
 
@@ -20,7 +20,7 @@ export class App {
         config
           .withInterceptor({
               request(request: Request) {
-                  request.headers.append('Authorization', 'Bearer ' + 'mock');
+                  request.headers.append('Authorization', 'Bearer ' + 'token');
                   return request;
               }
           });
